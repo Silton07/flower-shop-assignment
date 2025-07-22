@@ -54,7 +54,13 @@
   margin-left: auto;
   margin-right: auto;
 }
-
+.section-featured-text h2{
+color: rgb(39, 39, 39);
+}
+ .section-featured-text p{
+  margin: 10px 0px;
+  color: rgba(39, 39, 39, 0.6);
+ }
 .section-featured-image {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -224,6 +230,34 @@
   width: 150px;
 }
 
+.footer {
+  background-color: black;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 128px;
+  padding: 100px 0px;
+}
+.footer h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color:rgb(255, 255, 255);
+}
+.footer p{
+  font-size: 18px;
+  font-weight: 400;
+  color:rgba(255, 255, 255, 0.9);
+  margin: 24px 0px 32px 0px ;
+}
+
+.footer h6{
+  font-size: 16px;
+  font-weight: 400;
+  color:rgba(255, 255, 255, 0.4);
+}
+
+
 /* responsive */
 @media screen and (max-width: 576px) {
   .header-section {
@@ -281,5 +315,9 @@
 
   .submit-button {
     padding: 12px 0;
+  }
+  .footer p{
+   max-width: 450px;
+   margin-left: 30px;
   }
 }
